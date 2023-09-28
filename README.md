@@ -7,10 +7,9 @@ RequestBuilder is a Swift package designed to simplify and standardize the creat
 
 ### DONE
 - [X] **APIMode**: API mode to switch between different environments.
-- [X] **APIPath**: Create a way to define and manage API routes/
+- [X] **APIPath**: Create a way to define and manage API routes/endpoints.
 
 ### OPEN
-endpoints.
 - [ ] **HTTP Methods**: Add support HTTP methods to create the request.
 - [ ] **Network Errors**: Defining and handling common network errors.
 - [ ] **RequestBuilder**: Create the request builder to form the API requests.
@@ -43,5 +42,5 @@ endpoints.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/rodri2d2/RequestBuilder.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/rodri2d2/RequestBuilder.git", .upToNextMajor(from: "XXX"))
 ]
