@@ -6,10 +6,11 @@ RequestBuilder is a Swift package designed to simplify and standardize the creat
 ## Backlog
 
 ### DONE
-- [x] **APIMode**: API mode to switch between different environments.
+- [X] **APIMode**: API mode to switch between different environments.
+- [X] **APIPath**: Create a way to define and manage API routes/
 
 ### OPEN
-- [ ] **APIPath**: Create a way to define and manage API routes/endpoints.
+endpoints.
 - [ ] **HTTP Methods**: Add support HTTP methods to create the request.
 - [ ] **Network Errors**: Defining and handling common network errors.
 - [ ] **RequestBuilder**: Create the request builder to form the API requests.
@@ -19,6 +20,7 @@ RequestBuilder is a Swift package designed to simplify and standardize the creat
 - [ ] **APIMode configuration**: Implement the ability to use a configuration file for APIMode.
 - [ ] **Performance Optimisation**: Investigate and improve the performance of the framework.
 - [ ] **Documentation and Samples**: Improve documentation and add more examples of use.
+- [ ] **Research for APIPAth optimisation**: Try to find a better way to force developers to register their path before use.
 
 
 
