@@ -36,7 +36,7 @@
  let singleArticleRequestPath = ArticlePaths.single(id: 42).path
  ```
  */
-protocol APIPath {
+public protocol APIPath {
     /// The path to the endpoint. Returns `empty string` if no additional path is required,
     /// as in the case of some images or resources.
     var path: String { get }
@@ -50,12 +50,12 @@ protocol APIPath {
 /// ```swift
 /// let noAdditionalPath = CommonPaths.none.path // Returns `""`
 /// ```
-enum CommonPaths: APIPath {
+public enum CommonPaths: APIPath {
     
     /// Represents the absence of an additional route.
     case none
     
-    var path: String {
+    public var path: String {
         switch self {
         case .none:
             return ""
